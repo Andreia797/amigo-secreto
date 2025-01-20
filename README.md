@@ -18,6 +18,7 @@ visualizar a lista e realizar o sorteio de forma aleatória. Após o sorteio, o 
 ## 🖼️ Capturas de Tela
 
 ### Tela Inicial
+![Uploading image.png…]()
 
 
 
