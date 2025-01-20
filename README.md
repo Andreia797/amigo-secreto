@@ -18,14 +18,16 @@ visualizar a lista e realizar o sorteio de forma aleatória. Após o sorteio, o 
 ## 🖼️ Capturas de Tela
 
 ### Tela Inicial
-![Uploading image.png…]()
+![TelaInicial](https://github.com/user-attachments/assets/541f5109-24a4-4f1c-9ec5-9b901f794891)
 
 
 
 ### Lista de Participantes
+![LiatarParticipantes](https://github.com/user-attachments/assets/5bdd448c-786f-4a4b-87ec-969d7f71b712)
 
 
 ### Resultado do Sorteio
+![ResulatdoDoSorteio](https://github.com/user-attachments/assets/73c3a2be-f208-4411-97cb-656f47edad4b)
 
 
 ---
