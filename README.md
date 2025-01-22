@@ -18,16 +18,19 @@ visualizar a lista e realizar o sorteio de forma aleatória. Após o sorteio, o 
 ## 🖼️ Capturas de Tela
 
 ### Tela Inicial
-![TelaInicial](https://github.com/user-attachments/assets/541f5109-24a4-4f1c-9ec5-9b901f794891)
+![TelaInicial](https://github.com/user-attachments/assets/22b355f4-d7e8-430b-940d-e43f0d3bbc19)
+
 
 
 
 ### Lista de Participantes
-![LiatarParticipantes](https://github.com/user-attachments/assets/5bdd448c-786f-4a4b-87ec-969d7f71b712)
+![LiatarParticipantes](https://github.com/user-attachments/assets/00ab7a23-5e60-4bee-b165-c30bf33e1f33)
+
 
 
 ### Resultado do Sorteio
-![ResulatdoDoSorteio](https://github.com/user-attachments/assets/73c3a2be-f208-4411-97cb-656f47edad4b)
+![ResulatdoDoSorteio](https://github.com/user-attachments/assets/26b7be7b-d9d1-4fff-8b15-9e8f4fa5f51c)
+
 
 
 ---
