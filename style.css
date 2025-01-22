@@ -1,151 +1,152 @@
-/* Global Reset */
-body {
-    margin: 0;
-    font-family: 'Press Start 2P', cursive;
-    background-color: #2d2d4d;
-    color: #f5e6f8;
-}
+/* Redefinição global */  
+body {  
+    margin: 0; /* Remove a margem padrão do corpo da página */  
+    font-family: 'Press Start 2P', cursive; /* Define a fonte do corpo */  
+    background-color: #2d2d4d; /* Cor de fundo da página */  
+    color: #f5e6f8; /* Cor do texto padrão */  
+}  
 
-/* Main Content */
-.main-content {
-    text-align: center;
-    padding: 20px;
-}
+/* Conteúdo principal */  
+.main-content {  
+    text-align: center; /* Centraliza o texto dentro do conteúdo principal */  
+    padding: 5px; /* Espaçamento interno */  
+}  
 
-/* Header Section */
-.header-banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
+/* Seção de cabeçalho */  
+.header-banner {  
+    display: flex; /* Usa o modelo de layout flexível */  
+    flex-direction: column; /* Alinha os itens em uma coluna */  
+    align-items: center; /* Centraliza os itens na linha do eixo cruzado */  
+    margin-bottom: 30px; /* Espaçamento inferior */  
+}  
 
-.main-title {
-    font-size: 2.5rem;
-    color: #f5a8d0;
-    text-shadow: 2px 2px 5px #000;
-    margin-bottom: 10px;
-}
+.main-title {  
+    font-size: 4rem; /* Tamanho da fonte do título */  
+    color: #f5a8d0; /* Cor do título */  
+    text-shadow: 2px 2px 5px #000; /* Sombra do texto */  
+    margin-bottom: 25px; /* Espaçamento inferior do título */  
+}  
 
-.anime-image {
-    max-width: 200px;
-    height: auto;
-    border-radius: 20%;
-    box-shadow: 0px 0px 20px 5px #6e4a7e;
-}
+.anime-image {  
+    max-width: 250px; /* Largura máxima da imagem */  
+    height: auto; /* Mantém a proporção da altura da imagem */  
+    border-radius: 20%; /* Cantos arredondados da imagem */  
+    box-shadow: 0px 0px 20px 5px #6e4a7e; /* Sombra da imagem para profundidade */  
+}  
 
-/* Input Section */
-.input-section {
-    background-color: #3a3a5a;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 500px;
-    box-shadow: 0px 5px 15px #000;
-}
+/* Seção de entrada */  
+.input-section {  
+    background-color: #3a3a5a; /* Cor de fundo da seção de entrada */  
+    border-radius: 15px; /* bordas arredondados */  
+    padding: 20px; /* Espaçamento interno */  
+    margin: 0 auto; /* Centraliza a seção na tela */  
+    max-width: 800px; /* Largura máxima da seção */  
+    box-shadow: 0px 5px 15px #000; /* Sombra para profundidade */  
+}  
 
-.section-title {
-    font-size: 1.5rem;
-    color: #ffb6d5;
-    margin-bottom: 20px;
-}
+.section-title {  
+    font-size: 1.8rem; /* Tamanho da fonte do título da seção */  
+    color: #ffb6d5; /* Cor do título da seção */  
+    margin-bottom: 20px; /* Espaçamento inferior do título da seção */  
+}  
 
-.input-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
+.input-wrapper {  
+    display: flex; /* Usando layout flexível para o wrapper */  
+    justify-content: center; /* Centraliza os filhos */  
+    margin-bottom: 20px; /* Espaçamento inferior do wrapper */  
+}  
 
-.input-name {
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    font-size: 1rem;
-    margin-right: 10px;
-    width: 70%;
-    background-color: #fff0f7;
-    color: #3a3a5a;
-}
+.input-name {  
+    padding: 15px; /* Espaçamento interno do campo de entrada */  
+    border-radius: 10px; /* Cantos arredondados do campo */  
+    border: none; /* Remove a borda padrão */  
+    font-size: 1.2rem; /* Tamanho da fonte do campo */  
+    margin-right: 15px; /* Espaçamento à direita do campo */  
+    width: 70%; /* Largura do campo */  
+    background-color: #fff0f7; /* Cor de fundo do campo */  
+    color: #3a3a5a; /* Cor do texto no campo */  
+}  
 
-.button-add {
-    background-color: #ff8bbd;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1rem;
-    box-shadow: 2px 2px 5px #000;
-}
+.button-add {  
+    background-color: #ff8bbd; /* Cor de fundo do botão */  
+    color: white; /* Cor do texto no botão */  
+    border: none; /* Remove a borda padrão do botão */  
+    border-radius: 10px; /* Cantos arredondados do botão */  
+    padding: 10px 20px; /* Espaçamento interno do botão */  
+    cursor: pointer; /* Indica que é clicável */  
+    font-size: 1.2rem; /* Tamanho da fonte do botão */  
+    box-shadow: 2px 2px 5px #000; /* Sombra para profundidade */  
+}  
 
-.button-add:hover {
-    background-color: #e676ac;
-}
+.button-add:hover {  
+    background-color: #e676ac; /* Cor de fundo no hover */  
+}  
 
-/* Name List */
-.name-list,
-.result-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px auto;
-    color: #f5e6f8;
-}
+/* Name List */  
+.name-list,  
+.result-list {  
+    list-style-type: none; /* Remove os marcadores da lista */  
+    padding: 0; /* Remove o espaçamento interno */  
+    margin: 10px auto; /* Margem superior e inferior, centraliza a lista */  
+    color: #f5e6f8; /* Cor do texto das listas */  
+    font-size: 1.2rem; /* Tamanho do texto */
+}  
 
-/* Draw Button */
-.button-container {
-    margin-top: 20px;
-}
+/* Botão Desenhar */  
+.button-container {  
+    margin-top: 25px; /* Espaçamento superior para o container do botão */  
+}  
 
-.button-draw {
-    background-color: #ff8bbd;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    box-shadow: 2px 2px 5px #000;
-    transition: transform 0.2s;
-}
+.button-draw {  
+    background-color: #ff8bbd; /* Cor de fundo do botão de desenhar */  
+    color: white; /* Cor do texto no botão */  
+    border: none; /* Remove a borda padrão do botão */  
+    border-radius: 50px; /* Botão redondo */  
+    padding: 15px 30px; /* Espaçamento interno do botão */  
+    cursor: pointer; /* Indica que é clicável */  
+    font-size: 1.5rem; /* Tamanho da fonte do botão */  
+    display: flex; /* Usando layout flexível */  
+    align-items: center; /* Alinha os itens no centro verticalmente */  
+    justify-content: center; /* Alinha os itens no centro horizontalmente */  
+    gap: 10px; /* Espaçamento entre os itens do botão */  
+    box-shadow: 2px 2px 5px #000; /* Sombra para profundidade */  
+    transition: transform 0.2s; /* Animação suave ao transformar */  
+}  
 
-.button-draw:hover {
-    background-color: #e676ac;
-    transform: scale(1.1);
-}
+.button-draw:hover {  
+    background-color: #e676ac; /* Cor de fundo no hover */  
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho no hover */  
+}  
 
-.cute-icon {
-    width: 30px;
-    height: 30px;
-}
+.cute-icon {  
+    width: 30px; /* Largura do ícone */  
+    height: 30px; /* Altura do ícone */  
+}  
 
-/* Play Icon */
-.play-icon {
-    background-color: #ff8bbd; /* Rosa pastel */
-    color: #ffffff; /* Branco para o símbolo ▶ */
-    font-size: 24px; /* Tamanho do ícone */
-    border: none;
-    border-radius: 50%; /* Torna o botão redondo */
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
-    cursor: pointer;
-    transition: all 0.3s ease; /* Animação para hover */
-}
+/* Ícone de reprodução */  
+.play-icon {  
+    background-color: #ff8bbd; /* Cor de fundo do ícone de play */  
+    color: #ffffff; /* Cor do texto/símbolo do ícone */  
+    font-size: 24px; /* Tamanho do ícone */  
+    border: none; /* Remove a borda padrão do ícone */  
+    border-radius: 50%; /* Torna o botão redondo */  
+    width: 50px; /* Largura do botão */  
+    height: 50px; /* Altura do botão */  
+    display: flex; /* Usando layout flexível */  
+    justify-content: center; /* Centraliza horizontalmente */  
+    align-items: center; /* Centraliza verticalmente */  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */  
+    cursor: pointer; /* Indica que é clicável */  
+    transition: all 0.3s ease; /* Animação ao passar o mouse */  
+}  
 
-.play-icon:hover {
-    background-color: #d1a8ff; /* Lilás claro no hover */
-    transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Intensifica a sombra */
-}
+.play-icon:hover {  
+    background-color: #d1a8ff; /* Cor de fundo no hover */  
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho no hover */  
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Intensifica a sombra no hover */  
+}  
 
-.play-icon:active {
-    transform: scale(0.95); /* Dá o efeito de "pressionado" */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduz a sombra */
+.play-icon:active {  
+    transform: scale(0.95); /* Efeito de "pressionado" */  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduz a sombra ao pressionar */  
 }
