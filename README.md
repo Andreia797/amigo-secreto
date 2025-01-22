@@ -18,18 +18,21 @@ visualizar a lista e realizar o sorteio de forma aleatória. Após o sorteio, o 
 ## 🖼️ Capturas de Tela
 
 ### Tela Inicial
-![TelaInicial](https://github.com/user-attachments/assets/22b355f4-d7e8-430b-940d-e43f0d3bbc19)
+![TelaInicial](https://github.com/user-attachments/assets/407e316d-1b0f-4627-bc06-72bd29b6f031)
+
 
 
 
 
 ### Lista de Participantes
-![LiatarParticipantes](https://github.com/user-attachments/assets/00ab7a23-5e60-4bee-b165-c30bf33e1f33)
+![LiatarParticipantes](https://github.com/user-attachments/assets/4c85f5f2-2b3e-43eb-b637-ccda2c999853)
+
 
 
 
 ### Resultado do Sorteio
-![ResulatdoDoSorteio](https://github.com/user-attachments/assets/26b7be7b-d9d1-4fff-8b15-9e8f4fa5f51c)
+![ResulatdoDoSorteio](https://github.com/user-attachments/assets/f17f1582-6d93-412a-9862-d882a546ef5f)
+
 
 
 
@@ -39,5 +42,5 @@ visualizar a lista e realizar o sorteio de forma aleatória. Após o sorteio, o 
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/amigo-secreto.git
+   git clone https://github.com/Andreia797/amigo-secreto.git
    cd amigo-secreto
